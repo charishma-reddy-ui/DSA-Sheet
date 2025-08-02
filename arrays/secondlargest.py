@@ -1,22 +1,22 @@
 # Second Largest Element in an Array without sorting
 
 arr = [1,2,4,7,7,5]
-# newArr = []
-# obj = {}
+newArr = []
+obj = {}
 
-# # print(obj[4])
-# # obj = {}*None
+# print(obj[4])
+# obj = {}*None
 
-# l = len(arr) -1
-# for i in arr:
-#     if i in obj:
-#         obj[i] = obj[i] + 1
-#     else:
-#         obj[i] = 1      
+l = len(arr) -1
+for i in arr:
+    if i in obj:
+        obj[i] = obj[i] + 1
+    else:
+        obj[i] = 1      
 
 
-# for key in obj.keys():
-#     newArr.append(key)
+for key in obj.keys():
+    newArr.append(key)
 
 
 # for i in range(0,2):
